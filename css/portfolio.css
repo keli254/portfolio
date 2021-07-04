@@ -1,4 +1,30 @@
-h1  {
-    color: brown;
-    text-align: center;
+.post-container {
+    margin: 20px 20px 0 0;  
+    overflow: auto
 }
+h1 {
+    text-align: center;
+    color: brown;
+}
+h2 {
+    color: brown;
+}
+h3 {
+    color: brown;
+}
+
+.post {
+    float: left;
+}
+.post img {
+    display: block;
+    max-width:500px;
+    height:500px;
+}
+.post-content {
+    margin-left: 250px;
+     /* padding-left: 10px;
+} */
+
+
+ 
