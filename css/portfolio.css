@@ -1,26 +1,45 @@
-.post-container {
+/* .container {
     margin: 20px 20px 0 0;  
-    overflow: auto
+    overflow: auto;
+      
+} */
+#container {
+    background: lightblue;
+    width: 1200px;
+    height: 700px;
+    margin: 0 auto;
+    border: 0px solid white;
 }
+
 h1 {
     text-align: center;
-    color: brown;
+    color: black;
+    padding-bottom: 0px;
 }
 h2 {
-    color: brown;
+    color: black;
+    padding-top: 0px;
 }
 h3 {
-    color: brown;
+    padding-right: 0px;
+    color: black;
+    padding-bottom: 0px;
 }
-
-
+.list{
+    /* padding-left: 10;
+    margin-left: 10; */
+    padding-bottom: 0px;
+    float: left;
+    
+}
 .post {
     float: left;
 }
 .post img {
     display: block;
-    max-width:500px;
-    height:500px;
+    max-width:350px;
+    height:350px;
+    padding: 20px;
 }
 body {
     background-color: lightskyblue;
@@ -29,7 +48,5 @@ body {
 .highlight {
     color: royalblue;
     }
-
-
 
  
